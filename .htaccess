@@ -1,0 +1,16 @@
+# Mod_rewrite motorunu aç
+RewriteEngine On
+
+# index.php'yi veya pastes klasörünü etkilemeden diğer her şeyi yeniden yaz
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Harf, rakam, tire (-) ve alt çizgi (_) karakterlerini yakala
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ index.php?id=$1 [L,QSA]
+
+<Files "config.json">
+    Require all denied
+</Files>
+
+<Files "pastes.json">
+    Require all denied
+</Files>
