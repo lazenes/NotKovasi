@@ -41,7 +41,7 @@ E-Tablolar'a aktar
 
 Kullanıcı Adı: admin
 
-Şifre: 123456
+Şifre: admin
 
 Giriş yaptıktan sonra, sağ taraftaki Kullanıcı Ayarları bölümünden şifrenizi HEMEN güncellemeyi unutmayın!
 
@@ -50,7 +50,7 @@ index.php dosyasının en üstünde bulunan aşağıdaki değişkenleri ihtiyac�
 
 Değişken	Varsayılan	Açıklama
 $ENABLE_AUTH	true	false yaparsanız, giriş yapmadan da paste oluşturulabilir.
-$BASE_URL	'https://xx.ltd/'	Kendi sitenizin URL'si ile değiştirilmelidir.
+$BASE_URL	'https://xxx.ltd/'	Kendi sitenizin URL'si ile değiştirilmelidir.
 $PASTE_DIR	'pastes/'	Paste dosyalarının kaydedileceği klasör adı.
 
 E-Tablolar'a aktar
